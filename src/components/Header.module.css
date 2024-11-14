@@ -1,0 +1,21 @@
+/* src/components/Header.module.css */
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 82px 0;
+    height: 350px;
+    color: #fff;
+    width: 590%;
+    background-size: cover;
+    background-position: center;
+    padding-top: 568px;
+    margin-bottom: 563px;
+    margin-top: 29px;
+  }
+  
+  .title {
+    text-align: center;
+  }
+  

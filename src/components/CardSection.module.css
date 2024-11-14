@@ -1,0 +1,69 @@
+/* src/components/CardSection.module.css */
+
+.section {
+    background-color: #111;
+    color: #fff;
+    padding: 2rem 1rem;
+    margin: 0 auto;
+    width: 584%;
+    /* Center and constrain width for better alignment */
+    text-align: center;
+    height: 176px;
+    margin-top: 38px;
+    padding-bottom: 393px;
+    padding-left: 42px;
+    padding-top: 191px;
+    
+
+
+  }
+  
+  .sectionTitle {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .sectionSubtitle {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    color: #ccc;
+  }
+  
+  .cardGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    justify-items: center;
+  }
+  
+  .card {
+    width: 100%;
+    max-width: 240px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #333;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .cardImage {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .cardContent {
+    padding: 1rem;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .cardTitle {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+  

@@ -1,0 +1,25 @@
+/* src/components/Footer.module.css */
+
+.footer {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 2rem 1rem;
+    width: 533%;
+    height: 496px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 1079px;
+    margin-top: 515px;
+    padding-right: 391px;
+    padding-top: -121px;
+    padding-left: 39px;
+  }
+  
+  .socialIcons {
+    margin-top: 1rem;
+  }
+  
